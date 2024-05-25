@@ -1,0 +1,159 @@
+/*HEADER*/
+body{
+    margin: 0;
+    background-color: #dee2e6;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    box-shadow: 0 0 10px black;
+    background: black;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {    
+    text-decoration: none; /* Remove a linha de sublinhado */
+}
+
+#usuario{
+    box-shadow: 0 0 10px rgb(244, 248, 250);
+    margin-left: 200px;
+    margin-right: 50%;
+    height: 30px;
+    color: aliceblue;
+    background: white;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.Move {
+    margin-left: 400px;
+}
+
+h2 {
+    color: black;
+}
+
+#button_cabeçalho {
+    width: 100px;
+    height: 20px;
+    margin-left: 1400px;
+    background-color: azure;
+    border-radius: 5px; 
+    text-decoration: none; /* Remove a linha de sublinhado dos links dentro de botões */
+}
+
+
+/*HEADER*/
+
+/*TABELA*/
+#principal {
+    margin: 0 auto;
+    width: 500px%;
+    margin-top: 50px;
+    margin-left: 540px;
+}
+
+#cadastrarTurma {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+}
+
+#tabela {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+    text-align: right;
+    color: white;
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+#titulo {
+    width: 100%;
+}
+
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+#excluirTurma {
+    font-size: 10px;
+    font-weight: 600;
+    background-color: red;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#visualizarTurma {
+    font-size: 10px;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#tableTurmas {
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: darkgrey;
+}
+
+#btnSair {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+}

@@ -1,0 +1,100 @@
+/**/
+/*HEADER*/
+body {
+    margin: 0;
+    background-color: #dee2e6;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    box-shadow: 0 0 10px black;
+    background: black;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Remove a linha de sublinhado */
+}
+
+#usuario {
+    box-shadow: 0 0 10px rgb(244, 248, 250);
+    margin-left: 200px;
+    margin-right: 50%;
+    height: 30px;
+    color: aliceblue;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Move {
+    margin-left: 400px;
+}
+
+h2 {
+    color: black;
+}
+
+#button_cabeçalho {
+    width: 100px;
+    height: 20px;
+    margin-left: 1400px;
+    background-color: azure;
+    border-radius: 5px;
+    text-decoration: none; /* Remove a linha de sublinhado dos links dentro de botões */
+}
+/*HEADER*/
+/*TABELA*/
+#principal {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 560px;
+    width: 480px;
+    box-shadow: 0 0 10px black;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#formturma {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+#text {
+    color: white;
+}
+
+label {
+    width: 100%;
+}
+
+input type[text] {
+    width: 100%;
+    background-color: white;
+    color: aliceblue;
+}
+#formturma input type[submit] {
+    width: 100%;
+}
+/*TABELA*/
